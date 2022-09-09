@@ -7,6 +7,7 @@
 **The string last digit of n
 **Return:0
 **/
+
 int main(void)
 {
 	int n;
@@ -22,4 +23,7 @@ int main(void)
 	}
 	else if (lastn < 6 && lastn !=0)
 	{
-		printf("Last digit of %
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
+	}
+	return (0);
+}
